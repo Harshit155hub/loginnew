@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flashy Glass Login ✨</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Animated gradient backdrop -->
+  <div class="bg"></div>
+  <div class="bg bg-2"></div>
+  <div class="bg bg-3"></div>
+
+  <!-- Floating particles layer -->
+  <div id="particles"></div>
+
+  <!-- Login card -->
+  <main class="card" id="card">
+    <h1 class="logo">GL🌟SS</h1>
+    <h2>Welcome Back</h2>
+    <form id="loginForm" autocomplete="off">
+      <div class="field">
+        <input id="username" type="text" required />
+        <label for="username">Username</label>
+        <span class="focus-glow"></span>
+      </div>
+
+      <div class="field">
+        <input id="password" type="password" required />
+        <label for="password">Password</label>
+        <span class="focus-glow"></span>
+      </div>
+
+      <button class="boom" type="submit">
+        <span>Login</span>
+      </button>
+
+      <p class="meta">
+        <a href="#">Create account</a> • <a href="#">Forgot password?</a>
+      </p>
+      <p id="message" class="message"></p>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
